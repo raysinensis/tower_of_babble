@@ -1,0 +1,54 @@
+[gd_scene load_steps=5 format=3 uid="uid://dn0sd57adlok5"]
+
+[ext_resource type="Texture2D" uid="uid://ce56mgtatc68d" path="res://card.png" id="1_g8lge"]
+[ext_resource type="Script" path="res://cards.gd" id="1_wflrs"]
+[ext_resource type="Script" path="res://cardclickable.gd" id="3_ibp14"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oavqv"]
+size = Vector2(83, 124.25)
+
+[node name="cardclickable" type="Area2D"]
+script = ExtResource("3_ibp14")
+
+[node name="cardface" type="Sprite2D" parent="."]
+position = Vector2(44.5, 68.625)
+scale = Vector2(0.131124, 0.131046)
+texture = ExtResource("1_g8lge")
+
+[node name="symbol" type="Label" parent="."]
+offset_left = 9.0
+offset_top = -1.0
+offset_right = 49.0
+offset_bottom = 37.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+text = "e"
+
+[node name="example" type="Label" parent="."]
+offset_left = 14.0
+offset_top = 54.0
+offset_right = 79.0
+offset_bottom = 147.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "bet, bed, peck"
+autowrap_mode = 2
+
+[node name="cards" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 44.0
+offset_top = 65.625
+offset_right = 44.0
+offset_bottom = 65.625
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wflrs")
+
+[node name="cardshape" type="CollisionShape2D" parent="."]
+position = Vector2(44.5, 68.875)
+shape = SubResource("RectangleShape2D_oavqv")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=3 uid="uid://v7ehriwklgh7"]
+
+[ext_resource type="AudioStream" uid="uid://lpo76prx00eh" path="res://Laptop_Brush Keyboard_12.wav" id="1_5ewww"]
+[ext_resource type="Script" path="res://globalaudio.gd" id="1_r1wky"]
+[ext_resource type="AudioStream" uid="uid://d16f43ck0uw61" path="res://time_for_adventure.mp3" id="2_c4qsq"]
+[ext_resource type="AudioStream" uid="uid://hsordhd6pcsr" path="res://Servo Charge Spin Down Combined_04.wav" id="2_sybdj"]
+[ext_resource type="AudioStream" uid="uid://dqm2w0e8xdbjn" path="res://Modern8.wav" id="3_4diu8"]
+
+[node name="globalaudio" type="Node2D"]
+script = ExtResource("1_r1wky")
+
+[node name="winner" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_c4qsq")
+
+[node name="gameover" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_sybdj")
+
+[node name="thinkeffect" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_4diu8")
+
+[node name="pickeffect" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1_5ewww")
+volume_db = -4.0

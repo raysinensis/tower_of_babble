@@ -1,0 +1,71 @@
+[gd_scene load_steps=9 format=3 uid="uid://nh5er0p51m8l"]
+
+[ext_resource type="Script" path="res://gameover.gd" id="1_cgxlk"]
+[ext_resource type="Texture2D" uid="uid://bxkp5knhwkp85" path="res://blank.png" id="2_w3dhm"]
+[ext_resource type="Shader" path="res://gameover.gdshader" id="3_lm5iy"]
+[ext_resource type="Texture2D" uid="uid://bfucq26k0oj2t" path="res://space.jpg" id="3_qm4hf"]
+[ext_resource type="FontFile" uid="uid://csj2576lnkq5u" path="res://diffusion-bold.ttf" id="3_uwt7q"]
+[ext_resource type="Script" path="res://tilt.gd" id="4_p6bcp"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3ug2q"]
+resource_local_to_scene = true
+shader = ExtResource("3_lm5iy")
+shader_parameter/p1 = 0.34
+shader_parameter/p2 = 0.66
+shader_parameter/p3 = 0.05
+shader_parameter/p4 = 0.95
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_wsds1"]
+viewport_path = NodePath("tilt/SubViewport")
+
+[node name="gameover" type="CanvasLayer"]
+script = ExtResource("1_cgxlk")
+
+[node name="timer" type="Timer" parent="."]
+
+[node name="blank" type="Sprite2D" parent="."]
+position = Vector2(474.5, 721.5)
+scale = Vector2(5.23118, 4.70261)
+texture = ExtResource("2_w3dhm")
+
+[node name="background" type="Sprite2D" parent="."]
+visibility_layer = 3
+position = Vector2(481, 722.355)
+scale = Vector2(0.4, 0.401)
+texture = ExtResource("3_qm4hf")
+
+[node name="tilt" type="Polygon2D" parent="."]
+material = SubResource("ShaderMaterial_3ug2q")
+position = Vector2(-299, 135)
+scale = Vector2(1.66042, 0.982639)
+texture = SubResource("ViewportTexture_wsds1")
+polygon = PackedVector2Array(2.08165e-12, 2.08165e-12, 960, 2.08165e-12, 960, 709.662, 960, 1440, 839.831, 1440, 464.624, 1440, 2.08165e-12, 1440, 0, 721.246, 0, 0)
+uv = PackedVector2Array(2.08165e-12, 2.08165e-12, 960, 2.08165e-12, 960, 1440, 2.08165e-12, 1440)
+script = ExtResource("4_p6bcp")
+
+[node name="SubViewport" type="SubViewport" parent="tilt"]
+transparent_bg = true
+size = Vector2i(960, 1440)
+size_2d_override_stretch = true
+
+[node name="story" type="Label" parent="tilt/SubViewport"]
+offset_left = -7.0
+offset_top = 5.0
+offset_right = 953.0
+offset_bottom = 1432.0
+theme_override_colors/font_color = Color(0.705882, 0.568627, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_uwt7q")
+theme_override_font_sizes/font_size = 54
+text = "We were so close to saving humanity from catastrophe...
+
+But time ran out
+
+If only I had started my research earlier. When my child turned 6 months old would be enough.
+
+So, with my last wits, I sent our child back in time to warn ourselves in the past. 
+
+Good luck kid, you are our only hope."
+horizontal_alignment = 1
+autowrap_mode = 2

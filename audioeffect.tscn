@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://whb46dhp4tsh"]
+
+[ext_resource type="AudioStream" uid="uid://lpo76prx00eh" path="res://Laptop_Brush Keyboard_12.wav" id="1_4v1y4"]
+[ext_resource type="Script" path="res://audioeffect.gd" id="2_t0t5n"]
+
+[node name="audioeffect" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_4v1y4")
+script = ExtResource("2_t0t5n")
