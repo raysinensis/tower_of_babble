@@ -12,5 +12,6 @@ The prototype is complete, compiles to iOS fine, but uploaded here with Gemini A
 
 Here's to a good 2026. Cheers.
 
-!(https://img.itch.zone/aW1hZ2UvNDE2MDIyMy8yNDc5NTc5OC5qcGc=/original/lOzzLY.jpg)
-!(https://img.itch.zone/aW1hZ2UvNDE2MDIyMy8yNDc5NTgyNS5qcGc=/original/qtbdXC.jpg)
+![](https://img.itch.zone/aW1hZ2UvNDE2MDIyMy8yNDc5NTc5OC5qcGc=/original/lOzzLY.jpg)
+
+![](https://img.itch.zone/aW1hZ2UvNDE2MDIyMy8yNDc5NTgyNS5qcGc=/original/qtbdXC.jpg)
