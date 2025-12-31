@@ -11,3 +11,6 @@ The premise of the game is: the player plays as the time-traveler now back in th
 The prototype is complete, compiles to iOS fine, but uploaded here with Gemini API key left out. I should note that this was a proof of concept for a narrative idea and an idea for use of generative AI chat, but I can't endorse burning energy to play this at any scale, and the Gemini API calls can be quite slow (screenshots are from model v3-preview which is very slow. It is fast on v2.5-lite, which is the default setting, but it's inaccurate and often doesn't respect output format requests), also capped to 20 calls per day on free accounts. To be clear, no code (all mine) or art assets (free) here are AI generated, but the reply dialogue is designed to be retrieving http calls.
 
 Here's to a good 2026. Cheers.
+
+!(https://img.itch.zone/aW1hZ2UvNDE2MDIyMy8yNDc5NTc5OC5qcGc=/original/lOzzLY.jpg)
+!(https://img.itch.zone/aW1hZ2UvNDE2MDIyMy8yNDc5NTgyNS5qcGc=/original/qtbdXC.jpg)
