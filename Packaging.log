@@ -1,0 +1,163 @@
+2025-12-31 01:33:38 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x157eccd30; archive(resolved)="<IDEArchive: 0x6000016cbe90>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team(resolved)="<IDEProvisioningBasicTeam: 0x600003c31c00; teamID='2WKZH82JPS', teamName='(null)'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x157eccd30; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="<IDEProvisioningBasicTeam: 0x600003c31c00; teamID='2WKZH82JPS', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x157eccaa0; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="<IDEProvisioningBasicTeam: 0x600003c31c00; teamID='2WKZH82JPS', teamName='(null)'>">
+	<IDEDistributionContext: 0x157ecc890; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="<IDEProvisioningBasicTeam: 0x600003c31c00; teamID='2WKZH82JPS', teamName='(null)'>">
+	<IDEDistributionContext: 0x159827850; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="<IDEProvisioningBasicTeam: 0x600003c31c00; teamID='2WKZH82JPS', teamName='(null)'>">
+	<IDEDistributionContext: 0x159828950; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="<IDEProvisioningBasicTeam: 0x600003c31c00; teamID='2WKZH82JPS', teamName='(null)'>">
+	<IDEDistributionContext: 0x157fe75d0; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="<IDEProvisioningBasicTeam: 0x600003c31c00; teamID='2WKZH82JPS', teamName='(null)'>">
+	<IDEDistributionContext: 0x157fea550; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="<IDEProvisioningBasicTeam: 0x600003c31c00; teamID='2WKZH82JPS', teamName='(null)'>">
+	<IDEDistributionContext: 0x157fe9fd0; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="<IDEProvisioningBasicTeam: 0x600003c31c00; teamID='2WKZH82JPS', teamName='(null)'>">
+	<IDEDistributionContext: 0x157fea340; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="<IDEProvisioningBasicTeam: 0x600003c31c00; teamID='2WKZH82JPS', teamName='(null)'>">
+	<IDEDistributionContext: 0x1598126a0; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="(null)">
+	<IDEDistributionContext: 0x157fe94c0; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="(null)">
+	<IDEDistributionContext: 0x157fe0d50; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="(null)">
+	<IDEDistributionContext: 0x1598041f0; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003f65ec0>", team="(null)">
+	<IDEDistributionContext: 0x157fd9900; archive = "<IDEArchive: 0x6000016cbe90>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x157eccd30>
+2025-12-31 01:33:38 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2025-12-31 01:33:38 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2025-12-31 01:33:38 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/rfu/Pchat/babble_ios.xcarchive/Products/Applications/babble_ios.app' '/var/folders/11/fxh004wx5g93yfj08kb04q800000gq/T/XcodeDistPipeline.~~~ISyCSZ/Root/Payload/babble_ios.app'
+2025-12-31 01:33:38 +0000  >>> Copying /Users/rfu/Pchat/babble_ios.xcarchive/Products/Applications/babble_ios.app 
+2025-12-31 01:33:38 +0000  copying file ./_CodeSignature/CodeResources ... 
+2025-12-31 01:33:38 +0000  5090 bytes for ./_CodeSignature/CodeResources
+2025-12-31 01:33:38 +0000  copying file ./LaunchImage-1100-Portrait-2436h@3x.png ... 
+2025-12-31 01:33:38 +0000  71185 bytes for ./LaunchImage-1100-Portrait-2436h@3x.png
+2025-12-31 01:33:38 +0000  copying file ./en.lproj/InfoPlist.strings ... 
+2025-12-31 01:33:38 +0000  42 bytes for ./en.lproj/InfoPlist.strings
+2025-12-31 01:33:38 +0000  copying file ./AppIcon60x60@2x.png ... 
+2025-12-31 01:33:38 +0000  10963 bytes for ./AppIcon60x60@2x.png
+2025-12-31 01:33:38 +0000  copying file ./LaunchImage-1100-Landscape-2436h@3x.png ... 
+2025-12-31 01:33:38 +0000  108440 bytes for ./LaunchImage-1100-Landscape-2436h@3x.png
+2025-12-31 01:33:38 +0000  copying file ./LaunchImage-800-667h@2x.png ... 
+2025-12-31 01:33:38 +0000  33052 bytes for ./LaunchImage-800-667h@2x.png
+2025-12-31 01:33:38 +0000  copying file ./babble_ios ... 
+2025-12-31 01:33:38 +0000  54746576 bytes for ./babble_ios
+2025-12-31 01:33:38 +0000  copying file ./Assets.car ... 
+2025-12-31 01:33:38 +0000  246648 bytes for ./Assets.car
+2025-12-31 01:33:38 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2025-12-31 01:33:38 +0000  14061 bytes for ./AppIcon76x76@2x~ipad.png
+2025-12-31 01:33:38 +0000  copying file ./LaunchImage-800-Portrait-736h@3x.png ... 
+2025-12-31 01:33:38 +0000  81050 bytes for ./LaunchImage-800-Portrait-736h@3x.png
+2025-12-31 01:33:38 +0000  copying file ./LaunchImage-700@2x.png ... 
+2025-12-31 01:33:38 +0000  25343 bytes for ./LaunchImage-700@2x.png
+2025-12-31 01:33:38 +0000  copying file ./LaunchImage-700-568h@2x.png ... 
+2025-12-31 01:33:38 +0000  26112 bytes for ./LaunchImage-700-568h@2x.png
+2025-12-31 01:33:38 +0000  copying file ./babble_ios.pck ... 
+2025-12-31 01:33:38 +0000  11574400 bytes for ./babble_ios.pck
+2025-12-31 01:33:38 +0000  copying file ./embedded.mobileprovision ... 
+2025-12-31 01:33:38 +0000  12181 bytes for ./embedded.mobileprovision
+2025-12-31 01:33:38 +0000  copying file ./LaunchImage-800-Landscape-736h@3x.png ... 
+2025-12-31 01:33:38 +0000  126112 bytes for ./LaunchImage-800-Landscape-736h@3x.png
+2025-12-31 01:33:38 +0000  copying file ./Info.plist ... 
+2025-12-31 01:33:38 +0000  1943 bytes for ./Info.plist
+2025-12-31 01:33:38 +0000  copying file ./PkgInfo ... 
+2025-12-31 01:33:38 +0000  8 bytes for ./PkgInfo
+2025-12-31 01:33:38 +0000 [MT] /usr/bin/ditto exited with 0
+2025-12-31 01:33:38 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2025-12-31 01:33:38 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2025-12-31 01:33:38 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-12-31 01:33:38 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2025-12-31 01:33:38 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-12-31 01:33:38 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2025-12-31 01:33:38 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2025-12-31 01:33:38 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2025-12-31 01:33:38 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2025-12-31 01:33:38 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2025-12-31 01:33:38 +0000 [MT] Archs to thin for item /Users/rfu/Pchat/babble_ios.xcarchive/Products/Applications/babble_ios.app are []
+2025-12-31 01:33:39 +0000 [MT] Processing step: IDEDistributionODRStep
+2025-12-31 01:33:39 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2025-12-31 01:33:39 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-12-31 01:33:39 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2025-12-31 01:33:39 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000019ccd20; bundleID='TowerOfBabble', path='<DVTFilePath:0x600001936ca0:'/Users/rfu/Pchat/babble_ios.xcarchive/Products/Applications/babble_ios.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000019cc8a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000086ed00; name='Apple Development: ray.sinesis@gmail.com (YWMA4ULP8Z)', hash='9F8178F7409DB70BCFA9708A42BC11A73BEB0CB4', serialNumber='7EF8C40BA352093FDDCC20079E6E1D9E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-01-21 04:40:53 +0000''>', entitlements='{
+    "application-identifier" = "2WKZH82JPS.TowerOfBabble";
+    "com.apple.developer.team-identifier" = 2WKZH82JPS;
+    "get-task-allow" = 1;
+}', teamID='2WKZH82JPS', identifier='TowerOfBabble', executablePath='<DVTFilePath:0x6000019c28e0:'/Users/rfu/Pchat/babble_ios.xcarchive/Products/Applications/babble_ios.app/babble_ios'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "2WKZH82JPS.TowerOfBabble";
+    "com.apple.developer.team-identifier" = 2WKZH82JPS;
+    "get-task-allow" = 1;
+}
+2025-12-31 01:33:39 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-12-31 01:33:39 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000019ccd20; bundleID='TowerOfBabble', path='<DVTFilePath:0x600001936ca0:'/Users/rfu/Pchat/babble_ios.xcarchive/Products/Applications/babble_ios.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000019cc8a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000086ec40; name='Apple Development: ray.sinesis@gmail.com (YWMA4ULP8Z)', hash='9F8178F7409DB70BCFA9708A42BC11A73BEB0CB4', serialNumber='7EF8C40BA352093FDDCC20079E6E1D9E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-01-21 04:40:53 +0000''>', entitlements='{
+    "application-identifier" = "2WKZH82JPS.TowerOfBabble";
+    "com.apple.developer.team-identifier" = 2WKZH82JPS;
+    "get-task-allow" = 1;
+}', teamID='2WKZH82JPS', identifier='TowerOfBabble', executablePath='<DVTFilePath:0x6000019c28e0:'/Users/rfu/Pchat/babble_ios.xcarchive/Products/Applications/babble_ios.app/babble_ios'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "2WKZH82JPS.TowerOfBabble";
+    "com.apple.developer.team-identifier" = 2WKZH82JPS;
+    "get-task-allow" = 1;
+}
+2025-12-31 01:33:39 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000019ccd20; bundleID='TowerOfBabble', path='<DVTFilePath:0x600001936ca0:'/Users/rfu/Pchat/babble_ios.xcarchive/Products/Applications/babble_ios.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000019cc8a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000086ec40; name='Apple Development: ray.sinesis@gmail.com (YWMA4ULP8Z)', hash='9F8178F7409DB70BCFA9708A42BC11A73BEB0CB4', serialNumber='7EF8C40BA352093FDDCC20079E6E1D9E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-01-21 04:40:53 +0000''>', entitlements='{
+    "application-identifier" = "2WKZH82JPS.TowerOfBabble";
+    "com.apple.developer.team-identifier" = 2WKZH82JPS;
+    "get-task-allow" = 1;
+}', teamID='2WKZH82JPS', identifier='TowerOfBabble', executablePath='<DVTFilePath:0x6000019c28e0:'/Users/rfu/Pchat/babble_ios.xcarchive/Products/Applications/babble_ios.app/babble_ios'>', hardenedRuntime='0'>'> to: /var/folders/11/fxh004wx5g93yfj08kb04q800000gq/T/XcodeDistPipeline.~~~ISyCSZ/entitlements~~~Lj2h1S
+2025-12-31 01:33:39 +0000 [MT] invoking codesign: <NSConcreteTask: 0x600001d75c20; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    9F8178F7409DB70BCFA9708A42BC11A73BEB0CB4,
+    "--entitlements",
+    "/var/folders/11/fxh004wx5g93yfj08kb04q800000gq/T/XcodeDistPipeline.~~~ISyCSZ/entitlements~~~Lj2h1S",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/11/fxh004wx5g93yfj08kb04q800000gq/T/XcodeDistPipeline.~~~ISyCSZ/Root/Payload/babble_ios.app"
+)'>
+2025-12-31 01:33:39 +0000 [MT] codesign output: /var/folders/11/fxh004wx5g93yfj08kb04q800000gq/T/XcodeDistPipeline.~~~ISyCSZ/Root/Payload/babble_ios.app: replacing existing signature
+/var/folders/11/fxh004wx5g93yfj08kb04q800000gq/T/XcodeDistPipeline.~~~ISyCSZ/Root/Payload/babble_ios.app: signed app bundle with Mach-O thin (arm64) [TowerOfBabble]
+2025-12-31 01:33:39 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2025-12-31 01:33:39 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-12-31 01:33:39 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2025-12-31 01:33:39 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/11/fxh004wx5g93yfj08kb04q800000gq/T/XcodeDistPipeline.~~~ISyCSZ/Root' '/var/folders/11/fxh004wx5g93yfj08kb04q800000gq/T/XcodeDistPipeline.~~~ISyCSZ/Packages/babble_ios.ipa'
+2025-12-31 01:33:39 +0000  >>> Copying /var/folders/11/fxh004wx5g93yfj08kb04q800000gq/T/XcodeDistPipeline.~~~ISyCSZ/Root 
+2025-12-31 01:33:39 +0000  copying file ./Payload/babble_ios.app/_CodeSignature/CodeResources ... 
+2025-12-31 01:33:39 +0000  5090 bytes for ./Payload/babble_ios.app/_CodeSignature/CodeResources
+2025-12-31 01:33:39 +0000  copying file ./Payload/babble_ios.app/LaunchImage-1100-Portrait-2436h@3x.png ... 
+2025-12-31 01:33:39 +0000  71185 bytes for ./Payload/babble_ios.app/LaunchImage-1100-Portrait-2436h@3x.png
+2025-12-31 01:33:39 +0000  copying file ./Payload/babble_ios.app/en.lproj/InfoPlist.strings ... 
+2025-12-31 01:33:39 +0000  42 bytes for ./Payload/babble_ios.app/en.lproj/InfoPlist.strings
+2025-12-31 01:33:39 +0000  copying file ./Payload/babble_ios.app/AppIcon60x60@2x.png ... 
+2025-12-31 01:33:39 +0000  10963 bytes for ./Payload/babble_ios.app/AppIcon60x60@2x.png
+2025-12-31 01:33:39 +0000  copying file ./Payload/babble_ios.app/LaunchImage-1100-Landscape-2436h@3x.png ... 
+2025-12-31 01:33:39 +0000  108440 bytes for ./Payload/babble_ios.app/LaunchImage-1100-Landscape-2436h@3x.png
+2025-12-31 01:33:39 +0000  copying file ./Payload/babble_ios.app/LaunchImage-800-667h@2x.png ... 
+2025-12-31 01:33:39 +0000  33052 bytes for ./Payload/babble_ios.app/LaunchImage-800-667h@2x.png
+2025-12-31 01:33:39 +0000  copying file ./Payload/babble_ios.app/babble_ios ... 
+2025-12-31 01:33:40 +0000  54746576 bytes for ./Payload/babble_ios.app/babble_ios
+2025-12-31 01:33:40 +0000  copying file ./Payload/babble_ios.app/Assets.car ... 
+2025-12-31 01:33:40 +0000  246648 bytes for ./Payload/babble_ios.app/Assets.car
+2025-12-31 01:33:40 +0000  copying file ./Payload/babble_ios.app/AppIcon76x76@2x~ipad.png ... 
+2025-12-31 01:33:40 +0000  14061 bytes for ./Payload/babble_ios.app/AppIcon76x76@2x~ipad.png
+2025-12-31 01:33:40 +0000  copying file ./Payload/babble_ios.app/LaunchImage-800-Portrait-736h@3x.png ... 
+2025-12-31 01:33:40 +0000  81050 bytes for ./Payload/babble_ios.app/LaunchImage-800-Portrait-736h@3x.png
+2025-12-31 01:33:40 +0000  copying file ./Payload/babble_ios.app/LaunchImage-700@2x.png ... 
+2025-12-31 01:33:40 +0000  25343 bytes for ./Payload/babble_ios.app/LaunchImage-700@2x.png
+2025-12-31 01:33:40 +0000  copying file ./Payload/babble_ios.app/LaunchImage-700-568h@2x.png ... 
+2025-12-31 01:33:40 +0000  26112 bytes for ./Payload/babble_ios.app/LaunchImage-700-568h@2x.png
+2025-12-31 01:33:40 +0000  copying file ./Payload/babble_ios.app/babble_ios.pck ... 
+2025-12-31 01:33:40 +0000  11574400 bytes for ./Payload/babble_ios.app/babble_ios.pck
+2025-12-31 01:33:40 +0000  copying file ./Payload/babble_ios.app/embedded.mobileprovision ... 
+2025-12-31 01:33:40 +0000  12181 bytes for ./Payload/babble_ios.app/embedded.mobileprovision
+2025-12-31 01:33:40 +0000  copying file ./Payload/babble_ios.app/LaunchImage-800-Landscape-736h@3x.png ... 
+2025-12-31 01:33:40 +0000  126112 bytes for ./Payload/babble_ios.app/LaunchImage-800-Landscape-736h@3x.png
+2025-12-31 01:33:40 +0000  copying file ./Payload/babble_ios.app/Info.plist ... 
+2025-12-31 01:33:40 +0000  1943 bytes for ./Payload/babble_ios.app/Info.plist
+2025-12-31 01:33:40 +0000  copying file ./Payload/babble_ios.app/PkgInfo ... 
+2025-12-31 01:33:40 +0000  8 bytes for ./Payload/babble_ios.app/PkgInfo
+2025-12-31 01:33:40 +0000 [MT] /usr/bin/ditto exited with 0
+2025-12-31 01:33:40 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2025-12-31 01:33:40 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2025-12-31 01:33:40 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-12-31 01:33:40 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x6000019e3c00:'/var/folders/11/fxh004wx5g93yfj08kb04q800000gq/T/XcodeDistPipeline.~~~ISyCSZ/Root/Payload/babble_ios.app'>
+2025-12-31 01:33:40 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

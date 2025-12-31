@@ -1,0 +1,61 @@
+[gd_scene load_steps=12 format=3 uid="uid://bxduiu5c8kod4"]
+
+[ext_resource type="PackedScene" uid="uid://clatdp5v1hhgu" path="res://hud.tscn" id="1_n5rtx"]
+[ext_resource type="Script" path="res://main.gd" id="1_rarm2"]
+[ext_resource type="PackedScene" uid="uid://bnnrwgmkta4of" path="res://child.tscn" id="2_ukw78"]
+[ext_resource type="PackedScene" uid="uid://dkupxa4787xyl" path="res://parent.tscn" id="3_bht75"]
+[ext_resource type="Script" path="res://http_request.gd" id="5_o3y8n"]
+[ext_resource type="PackedScene" uid="uid://dn0sd57adlok5" path="res://cards.tscn" id="6_24mn1"]
+[ext_resource type="PackedScene" uid="uid://nh5er0p51m8l" path="res://gameover.tscn" id="7_x7mh4"]
+[ext_resource type="PackedScene" uid="uid://cr7ydvci46ef" path="res://winner.tscn" id="8_v4cen"]
+[ext_resource type="PackedScene" uid="uid://ch6wrc71r7itm" path="res://savelog.tscn" id="9_d6nk7"]
+
+[sub_resource type="Curve2D" id="Curve2D_wddwm"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 19, 1036, 0, 0, 0, 0, 945, 1036)
+}
+point_count = 2
+
+[sub_resource type="Curve2D" id="Curve2D_inigr"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 19, 1178, 0, 0, 0, 0, 945, 1178)
+}
+point_count = 2
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_rarm2")
+cards = ExtResource("6_24mn1")
+
+[node name="hud" parent="." instance=ExtResource("1_n5rtx")]
+
+[node name="child" parent="." instance=ExtResource("2_ukw78")]
+visible = false
+position = Vector2(307, 725)
+
+[node name="parent" parent="." instance=ExtResource("3_bht75")]
+position = Vector2(478, 520)
+
+[node name="http_request" type="HTTPRequest" parent="."]
+script = ExtResource("5_o3y8n")
+
+[node name="cardpath" type="Path2D" parent="."]
+curve = SubResource("Curve2D_wddwm")
+
+[node name="cardloc" type="PathFollow2D" parent="cardpath"]
+position = Vector2(19, 1036)
+
+[node name="cardpath2" type="Path2D" parent="."]
+position = Vector2(0, 135)
+curve = SubResource("Curve2D_inigr")
+
+[node name="cardloc2" type="PathFollow2D" parent="cardpath2"]
+position = Vector2(19, 1178)
+
+[node name="gameover" parent="." instance=ExtResource("7_x7mh4")]
+visible = false
+
+[node name="winner" parent="." instance=ExtResource("8_v4cen")]
+visible = false
+script = null
+
+[node name="savelog" parent="." instance=ExtResource("9_d6nk7")]

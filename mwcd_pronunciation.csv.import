@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://1b5g68x7f1jp"
+
+[deps]
+
+files=["res://mwcd_pronunciation.example.translation", "res://mwcd_pronunciation.class.translation"]
+
+source_file="res://mwcd_pronunciation.csv"
+dest_files=["res://mwcd_pronunciation.example.translation", "res://mwcd_pronunciation.class.translation"]
+
+[params]
+
+compress=true
+delimiter=0

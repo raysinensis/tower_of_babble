@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://cr7ydvci46ef"]
+
+[ext_resource type="Script" path="res://winner.gd" id="1_yr3dy"]
+[ext_resource type="Texture2D" uid="uid://ct36ibjyia3v5" path="res://christmas.png" id="2_4dcug"]
+[ext_resource type="FontFile" uid="uid://csj2576lnkq5u" path="res://diffusion-bold.ttf" id="2_cpfdd"]
+
+[node name="winner" type="CanvasLayer"]
+script = ExtResource("1_yr3dy")
+
+[node name="background" type="Sprite2D" parent="."]
+visibility_layer = 3
+position = Vector2(508, 539)
+scale = Vector2(0.30575, 0.290875)
+texture = ExtResource("2_4dcug")
+
+[node name="story" type="Label" parent="."]
+offset_left = 6.0
+offset_top = 1163.0
+offset_right = 953.0
+offset_bottom = 2149.0
+theme_override_colors/font_color = Color(0.694118, 0.709804, 0, 1)
+theme_override_fonts/font = ExtResource("2_cpfdd")
+theme_override_font_sizes/font_size = 40
+text = "And thus, earth was rescued from armageddon, and our child could grow up with a normal childhood.
+
+Well, I haven't introduced Chinese yet."
+horizontal_alignment = 1
+autowrap_mode = 2

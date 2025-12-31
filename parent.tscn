@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkupxa4787xyl"]
+
+[ext_resource type="Texture2D" uid="uid://cg0f7hbmooywd" path="res://parentchild.png" id="1_onhek"]
+
+[node name="parent" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_onhek")
+flip_h = true
